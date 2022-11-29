@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.giph-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  max-width: 960px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.giph-card {
+  max-width: 300px;
+}
+
+.giph-card-image {
+  object-fit: contain;
+  max-width: 300px;
+}
